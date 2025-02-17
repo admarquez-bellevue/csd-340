@@ -1,0 +1,55 @@
+<!--Adrian Marquez
+    Module 9.3
+    02/16/2025
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script>
+      var firstVariableValue = "plains";
+      var secondVariableValue = "three";
+      var thirdVariableValue = "struggles";
+      var fourthVariableValue = "games";
+    </script>
+    <title>CSD 340 Development with HTML and CSS</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Assignment 9.3: JavaScript - Part 1</h1>
+      <p>
+        Born in the West, but raised in the <span id="plains">_______</span>, Omaha’s skies and Nebraska’s
+        rains. From childhood days to lessons learned, Through trials and
+        dreams, your passion burned.
+      </p>
+      <p>
+        A father first, with love so true, <span id="three">_______</span> young hearts look up to you.
+        Through laughter, <span id="struggles">_______</span>, joy, and play, You guide them strong along
+        the way.
+      </p>
+      <p>
+        Guitar in hand, a car to mend, <span id="games">_______</span> and friends—time well-spent. With
+        tech in mind and skills so keen, You shape the world, both felt and
+        seen.
+      </p>
+      <p>
+        <button type="button"
+        onclick="document.getElementById('plains').innerHTML = firstVariableValue">plains</button>
+        <button type="button"
+        onclick="document.getElementById('three').innerHTML = secondVariableValue">three</button>
+        <button type="button"
+        onclick="document.getElementById('struggles').innerHTML = thirdVariableValue">struggles</button>
+        <button type="button"
+        onclick="document.getElementById('games').innerHTML = fourthVariableValue">games</button>
+      </p>
+      <hr/>
+      <address>
+        <a href="https://www.bellevue.edu/">Bellevue Universtiy</a>
+        <p>1000 Galvin Rd S</p>
+        <p>Bellevue, NE 68005</p>
+      </address>
+    </div>
+  </body>
+</html>
