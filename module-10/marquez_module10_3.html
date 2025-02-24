@@ -1,0 +1,35 @@
+<!--
+    Adrian Marquez
+    Module 10.3
+    02/23/2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="marquez_module10_3.css">
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <script>
+        function displayImage(imageFile) {
+            var largerImage = document.getElementById("mainImage");
+            largerImage.src = imageFile;
+        }
+    </script>
+</head>
+<body>
+    <h2>Hover over image to display larger version.</h2>
+    <h2>Click image to show opposite image.</h2>
+    <div class="image-container">
+        <img class="thumbnail" src="car.jpg" onclick="displayImage('motorcycle.jpg')" alt="image1">
+        <img class="thumbnail" src="dog.jpeg" onclick="displayImage('cat.jpg')" alt="image2">
+        <img class="thumbnail" src="football.jpg" onclick="displayImage('soccerball.jpg')" alt="image3">
+    </div>
+    <img id="mainImage" src="motorcycle.jpg" alt="Main Image">
+</body>
+</html>
+</body>
+</html>
